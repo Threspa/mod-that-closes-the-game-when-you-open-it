@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "mod-that-closes-the-game-when-you-open-it",
+	"version": "1.0.0",
+	"name": "mod that closes the game when you open it",
+	"description": "This mod just closes your game when it reaches the client stage.",
+	"authors": [
+		"Threspa"
+	],
+	"contact": {
+      "Do not try to contact me.": "POWERED BY THE CENTRAL INTELLIGENCE AGENCY"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mod-that-closes-the-game-when-you-open-it/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"fart.mtctgwyoi.ModThatClosesTheGameWhenYouOpenIt"
+		]
+	},
+	"mixins": [
+		"mod-that-closes-the-game-when-you-open-it.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
